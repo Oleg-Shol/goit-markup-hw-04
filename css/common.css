@@ -73,6 +73,8 @@ h6 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 91px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /* Logo blue */
@@ -80,16 +82,18 @@ h6 {
   color: #2196f3;
 }
 
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 
 .menu-nav .link {
   color: var(--main-h-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus {
@@ -111,7 +115,10 @@ h6 {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
