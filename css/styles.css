@@ -61,7 +61,7 @@
   display: flex;
 }
 
-.list-features{
+.list-features {
   width: 270px;
 }
 .list-features::before {
@@ -77,6 +77,15 @@
 
 .icon-antena::before {
   background-image: url(../Images/svg-icons/antena.svg);
+}
+.icon-clock::before {
+  background-image: url(../Images/svg-icons/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../Images/svg-icons/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../Images/svg-icons/astronaut.svg);
 }
 
 .features h3 {
