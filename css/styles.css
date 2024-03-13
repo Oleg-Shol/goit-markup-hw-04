@@ -76,16 +76,22 @@
 }
 
 .icon-antena::before {
-  background-image: url(../Images/svg-icons/antena.svg);
+  
+  background-image: url(../Images/svg-icons/antena.svg );
+ background-size: 70px 70px;
+ 
 }
 .icon-clock::before {
   background-image: url(../Images/svg-icons/clock.svg);
+  background-size: 70px 70px;
 }
 .icon-diagram::before {
   background-image: url(../Images/svg-icons/diagram.svg);
+  background-size: 70px 70px;
 }
 .icon-astronaut::before {
   background-image: url(../Images/svg-icons/astronaut.svg);
+  background-size: 70px 70px;
 }
  
 .features h3 {
@@ -153,23 +159,32 @@
 .team .list{
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  
   align-items: flex-start;
 }
 
 /* team-social-pictures */
 .team .social-list{
   margin: 0px 32px 30px 32px;
+  
 }
 
-.team button {
+.team .button {
   width: 44px;
   height: 44px;
   fill: #AFB1B8;
-  
-  
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
 }
-.team .button:hover{
+
+.team .li-item :not(:last-child){
+  margin-right: 10px;
+}
+
+
+.team .button:hover,
+.team .button:focus{
   background-color: #2196f3;
   fill: #ffffff;
 }
